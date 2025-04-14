@@ -1,0 +1,328 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #F3F1C1;
+    overflow-x: hidden;
+   
+}
+.trend-box{
+    background: #000;
+    width: 1439px;
+    height: 1623px;
+    position: relative;
+    top: 75px;
+    margin: 45px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 28px;
+    background: #000;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.phone-heading{
+    position: absolute;
+    top: 24px;
+    left: 85px;
+    color: #FFF;
+font-family: Poppins;
+font-size: 38px;
+font-style: normal;
+font-weight: 500;
+line-height: 72px;
+}
+
+
+
+
+
+.carousel-phone {
+    position: absolute;
+    top: 165px;
+    left: 86.5px;
+    width: 1350px;
+    height: 520px;
+    overflow: hidden;
+}
+.carousel-box-phone {
+    display: flex;
+   min-width: 1428px;
+    transition: transform 0.5s ease-in-out;
+   
+  
+    
+   
+}
+.card-phone{
+    background: #fff;
+    height: 490px;
+    width: 307px;
+    border-radius: 28px;
+}
+
+.slide {
+    flex: 0 0 33.33%;
+    
+    height: 525px;
+    width: 307px;
+  
+      
+}
+
+.info-1{
+    position: absolute;
+    top: 299px;
+    background: #fff;
+    height: 150px;
+    width: 307px;
+    border-radius: 0px 0px 28px 28px;
+    
+}
+.info-1 h4{
+    color: #000;
+font-family: Poppins;
+font-size: 19px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px;
+
+text-align: center;
+margin-top: 10px;
+}
+.info-1 .price-phone{
+    color: #000;
+font-family: Poppins;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; 
+position: absolute;
+top: 25px;
+left: 83px;
+}
+.info-1 .price-phone span{
+    color: #000;
+font-family: Poppins;
+font-size: 19px;
+font-style: normal;
+font-weight: bold;
+line-height: 36px; 
+}
+.offer{
+    color: #616161;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+position: absolute;
+top: 75px;
+left: 83px;
+}
+.comp{
+position: absolute;
+top: 113px;
+left: 12px;
+width: 284px;
+height: 63px;
+
+border-radius: 24px;
+border: 1px solid #FFF;
+background: #F59C42;
+color: #000;
+font-family: Poppins;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height:36px;
+transition: background-color 0.6s ease, transform 0.6s ease;
+}
+.comp:hover{
+    border-radius: 25px;
+    border: 1px solid #FFF;
+    background: #000;
+    color: #fff;
+}
+
+.slide img {
+    width: 307px;
+    height: 307px;
+   /* z-index: 1; */
+    
+   
+   
+}
+
+#prev-button{
+    position: absolute;
+    top: 393px;
+    left: 28px; 
+    background: transparent; 
+    font-size: 28px;
+    border: none;
+}
+
+#next-button{
+    position: absolute;
+    top: 393px;
+    right: 30px; 
+    background: transparent; 
+    font-size: 28px;
+    border: none;
+}
+
+
+
+
+.hr-class{
+    position: absolute;
+    top: 707px;
+    width: 1250px;
+    height: 0.25px;
+    background: #FFF;
+    margin-left: 89px;
+}
+
+
+
+/* for laptop */
+
+.laptop-heading {
+    position: absolute;
+    top: 755px;
+    left: 85px;
+    color: #FFF;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; 
+}
+.carousel-laptop {
+    position: absolute;
+    top: 884px;
+    width: 1330px;
+    height: 900px;
+    margin: auto;
+    overflow: hidden;
+    left: 76px;
+}
+
+.carousel-box-laptop {
+    display: flex; 
+    transition: transform 0.5s ease-in-out;
+  min-width: 1330px;
+} 
+
+.slide-lap {
+    flex: 0 0 50%; /* Ensures 2 slides are visible */
+    box-sizing: border-box;
+    padding: 10px;
+   
+}
+.info-lap{
+    background: #fff;
+    width: 592px;
+    height: 235px;
+    position: absolute;
+    top: 420px;
+    border-radius: 28px;
+    background: #FFF;
+    
+}
+ .card-box{
+   
+    width: 592px;
+height: 600px;
+border-radius: 30px;
+background: #FFF;
+}
+.slide-lap img {
+    width: 390px;
+    height: 390px;
+    
+   margin-left: 100px;
+
+    
+    
+}
+
+.info-lap h4{
+    color: #000;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+   text-align: center;
+   margin-top: 2px;
+}
+.price-lap{
+    color: #000;
+font-family: Poppins;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: 48px;
+position: absolute;
+top: 17px;
+left: 203px;
+}
+.price-lap span{
+    color: #000;
+font-family: Poppins;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+}
+.offer-lap{
+    color: #616161;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+position: absolute;
+top: 90px;
+left: 210px;
+}
+.comp-lap{position: absolute;
+    top: 144px; 
+    left: 51px;
+    width: 490px;
+    height: 63px;
+border-radius: 24px;
+border: 1px solid #FFF;
+background: #F59C42;
+color: #000;
+font-family: Poppins;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height:36px;
+transition: background-color 0.6s ease, transform 0.6s ease;
+}
+.comp-lap:hover{
+border-radius: 25px;
+border: 1px solid #FFF;
+background: #000;
+color: #fff;
+}
+
+
+#prev-button-laptop{
+    position: absolute;
+    top: 1202px;
+    left: 28px; 
+    background: transparent; 
+    font-size: 28px;
+    border: none;
+}
+#next-button-laptop{
+    position: absolute;
+    top: 1202px;
+    right: 30px; 
+    background: transparent; 
+    font-size: 28px;
+    border: none; 
+}
